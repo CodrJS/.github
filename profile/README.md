@@ -12,6 +12,7 @@ This is the start to a improved version of Codr which can be found on [Github](h
 
 ## NPM modules
 
+- ![npm version](https://img.shields.io/npm/v/@codrjs/core) **@codrjs/core** • [[repo](https://github.com/CodrJS/core)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
 - ![npm version](https://img.shields.io/npm/v/@codrjs/health) **@codrjs/health** • [[repo](https://github.com/CodrJS/health)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/health)]
 - ![npm version](https://img.shields.io/npm/v/@codrjs/kafka) **@codrjs/kafka** • [[repo](https://github.com/CodrJS/kafka)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/kafka)]
-- ![npm version](https://img.shields.io/npm/v/@codrjs/core) **@codrjs/core** • [[repo](https://github.com/CodrJS/core)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
+- ![npm version](https://img.shields.io/npm/v/@codrjs/logger) **@codrjs/logger** • [[repo](https://github.com/CodrJS/logger)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/logger)]
