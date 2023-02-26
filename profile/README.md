@@ -14,23 +14,39 @@ This is the start to a improved version of Codr which can be found on [Github](h
 ## NPM modules
 View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
-- ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • [[repo](https://github.com/CodrJS/core)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
-- ![npm version](https://img.shields.io/npm/v/@codrjs/design-library) `@codrjs/design-library` • [[repo](https://github.com/CodrJS/design-library)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/design-library)]
-- ![npm version](https://img.shields.io/npm/v/@codrjs/health) `@codrjs/health` • [[repo](https://github.com/CodrJS/health)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/health)]
-- ![npm version](https://img.shields.io/npm/v/@codrjs/kafka) `@codrjs/kafka` • [[repo](https://github.com/CodrJS/kafka)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/kafka)]
-- ![npm version](https://img.shields.io/npm/v/@codrjs/logger) `@codrjs/logger` • [[repo](https://github.com/CodrJS/logger)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/logger)]
-- ![npm version](https://img.shields.io/npm/v/@codrjs/models) `@codrjs/models` • [[repo](https://github.com/CodrJS/models)] [[npmjs.org](https://www.npmjs.com/package/@codrjs/models)] -- *in progress*
+- ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • 
+[[repo](https://github.com/CodrJS/core)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
+- ![npm version](https://img.shields.io/npm/v/@codrjs/design-library) `@codrjs/design-library` • 
+[[repo](https://github.com/CodrJS/design-library)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/design-library)]
+[[docker image](https://github.com/CodrJS/design-library/pkgs/container/design-library)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/health) `@codrjs/health` • 
+[[repo](https://github.com/CodrJS/health)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/health)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/kafka) `@codrjs/kafka` • 
+[[repo](https://github.com/CodrJS/kafka)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/kafka)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/logger) `@codrjs/logger` • 
+[[repo](https://github.com/CodrJS/logger)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/logger)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/models) `@codrjs/models` • 
+[[repo](https://github.com/CodrJS/models)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/models)] -- *in progress*
 
 ## Templates
 
 - `ts-npm-template` • [[repo](https://github.com/CodrJS/ts-npm-template)]
 - `ts-microservice-template` • [[repo](https://github.com/CodrJS/ts-microservice-template)]
+[[docker image](https://github.com/CodrJS/ts-microservice-template/pkgs/container/ts-microservice-template)]
 
 ## Microservices
 
 **Core Domain**
-- `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)] • Core domain, traffic proxy
-- `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)] • Core domain, configuration manager for all microservices
+- `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
+[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Core domain, traffic proxy
+- `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)]
+[[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Core domain, configuration manager for all microservices
 - `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
 - `codr-core-email` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
 - `codr-core-email-template` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
