@@ -23,5 +23,27 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 ## Templates
 
-- `ts-npm-template` • [[repo](https://github.com/CodrJS/logger)]
-- `ts-microservice-template` • [[repo](https://github.com/CodrJS/logger)]
+- `ts-npm-template` • [[repo](https://github.com/CodrJS/ts-npm-template)]
+- `ts-microservice-template` • [[repo](https://github.com/CodrJS/ts-microservice-template)]
+
+## Microservices
+
+**Core Domain**
+- `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)] • Core domain, traffic proxy
+- `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)] • Core domain, configuration manager for all microservices
+- `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
+- `codr-core-email` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
+- `codr-core-email-template` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
+
+**User Domain**
+- `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
+- `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-config)] • To be built
+- `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)] • To be built
+- `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)] • To be built
+
+**Project Domain**
+- `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built
+- `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)] • To be built
+- `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)] • To be built
+- `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)] • To be built
+- `codr-project-annotation` • [[repo](https://github.com/CodrJS/codr-project-annotation)] • To be built
