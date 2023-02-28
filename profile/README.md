@@ -44,12 +44,13 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 **Core Domain**
 - `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
-[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Core domain, traffic proxy
+[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Determines and routes all core traffic to the correct service.
 - `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)]
-[[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Core domain, configuration manager for all microservices
+[[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Manages any type of configuration file.
 - `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
 - `codr-core-email` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
 - `codr-core-email-template` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
+- `codr-core-notification` • [[repo](https://github.com/CodrJS/codr-core-notification)] • To be built
 
 **User Domain**
 - `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
