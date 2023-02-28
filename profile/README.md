@@ -50,7 +50,12 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 - `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
 - `codr-core-email` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
 - `codr-core-email-template` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
-- `codr-core-notification` • [[repo](https://github.com/CodrJS/codr-core-notification)] • To be built
+
+**Notification Domain** -- idea stage (might stay in core)
+- `codr-notification-controller` • [[repo](https://github.com/CodrJS/codr-notification-controller)] • To be built
+- `codr-notification-email` • [[repo](https://github.com/CodrJS/codr-notification-email)] • To be built
+- `codr-notification-sms` • [[repo](https://github.com/CodrJS/codr-notification-sms)] • To be built
+- `codr-notification-push` • [[repo](https://github.com/CodrJS/codr-notification-push)] • To be built
 
 **User Domain**
 - `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
