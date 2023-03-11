@@ -16,6 +16,7 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 - ![npm version](https://img.shields.io/npm/v/@codrjs/config) `@codrjs/config` • 
 [[repo](https://github.com/CodrJS/config)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/config)]
 - ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • 
 [[repo](https://github.com/CodrJS/core)] 
 [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
