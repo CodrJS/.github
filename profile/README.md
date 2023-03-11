@@ -7,13 +7,15 @@ This is the start to a improved version of Codr which can be found on [Github](h
 ## Repositories
 
 - **CodrJS/API** • [[repo](https://github.com/CodrJS/API)] • _This contains the code for our RESTful API built on the @CodrJS/Core module_
-- **CodrJS/config** • [[repo](https://github.com/CodrJS/config)] (**to be changed**) • _Current state: k8s and service configuration documentation_
+- **CodrJS/setup** • [[repo](https://github.com/CodrJS/setup)] • k8s and service configuration documentation
 - **CodrJS/docs** • [[repo](https://github.com/CodrJS/docs)] (**private repo**) • _End user documentation for Codr_
 - **CodrJS/WebUI** • [[repo](https://github.com/CodrJS/WebUI)] • _This is the fround-end web client that interacts with the RESTful API_
 
 ## NPM modules
 View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
+- ![npm version](https://img.shields.io/npm/v/@codrjs/config) `@codrjs/config` • 
+[[repo](https://github.com/CodrJS/config)] 
 - ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • 
 [[repo](https://github.com/CodrJS/core)] 
 [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
