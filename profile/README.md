@@ -16,7 +16,7 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 - ![npm version](https://img.shields.io/npm/v/@codrjs/config) `@codrjs/config` • 
 [[repo](https://github.com/CodrJS/config)] 
-[[npmjs.org](https://www.npmjs.com/package/@codrjs/config)]
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/config)] -- *in progress*
 - ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • 
 [[repo](https://github.com/CodrJS/core)] 
 [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
@@ -62,7 +62,7 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 **User Domain**
 - `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
-- `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-config)] • To be built
+- `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)] • To be built
 - `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)] • To be built
 - `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)] • To be built
 
