@@ -16,7 +16,7 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 - ![npm version](https://img.shields.io/npm/v/@codrjs/config) `@codrjs/config` • 
 [[repo](https://github.com/CodrJS/config)] 
-[[npmjs.org](https://www.npmjs.com/package/@codrjs/config)] -- *in progress*
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/config)]
 - ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • 
 [[repo](https://github.com/CodrJS/core)] 
 [[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
@@ -35,7 +35,7 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 [[npmjs.org](https://www.npmjs.com/package/@codrjs/logger)]
 - ![npm version](https://img.shields.io/npm/v/@codrjs/models) `@codrjs/models` • 
 [[repo](https://github.com/CodrJS/models)] 
-[[npmjs.org](https://www.npmjs.com/package/@codrjs/models)] -- *in progress*
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/models)]
 
 ## Templates
 
@@ -46,29 +46,32 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 ## Microservices
 
 **Core Domain**
-- `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
-[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Determines and routes all core traffic to the correct service.
-- `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)]
-[[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Manages any type of configuration file.
-- `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
-- `codr-core-email` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
-- `codr-core-email-template` • [[repo](https://github.com/CodrJS/codr-core-email)] • To be built
+- [Service] `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
+[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Handles complex logic and forwards CRUD operations to the specified entity.
+- [Entity] `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)]
+[[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Config entity manager.
+- [Entity] `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
 
-**Notification Domain** -- idea stage (might stay in core)
-- `codr-notification-controller` • [[repo](https://github.com/CodrJS/codr-notification-controller)] • To be built
-- `codr-notification-email` • [[repo](https://github.com/CodrJS/codr-notification-email)] • To be built
-- `codr-notification-sms` • [[repo](https://github.com/CodrJS/codr-notification-sms)] • To be built
-- `codr-notification-push` • [[repo](https://github.com/CodrJS/codr-notification-push)] • To be built
+**Notification Domain**
+- [Service] `codr-notification-controller` • [[repo](https://github.com/CodrJS/codr-notification-controller)] • To be built
+- [Service] `codr-notification-email` • [[repo](https://github.com/CodrJS/codr-notification-email)] • To be built
+- [Service] `codr-notification-sms` • [[repo](https://github.com/CodrJS/codr-notification-sms)] • To be built
+- [Service] `codr-notification-push` • [[repo](https://github.com/CodrJS/codr-notification-push)] • To be built
+- [Entity] `codr-notification-message` • [[repo](https://github.com/CodrJS/codr-notification-message)] • To be built
+- [Entity] `codr-notification-preferences` • [[repo](https://github.com/CodrJS/codr-notification-preferences)] • To be built
+- [Entity] `codr-notification-email-template` • [[repo](https://github.com/CodrJS/codr-notification-email-template)] • To be built
 
 **User Domain**
-- `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
-- `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)] • To be built
-- `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)] • To be built
-- `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)] • To be built
+- [Service] `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
+- [Entity] `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)]
+[[docker image](https://github.com/CodrJS/codr-user-user/pkgs/container/codr-user-user)] • User entity manager.
+- [Entity] `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)] • To be built
+- [Entity] `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)] • To be built
+- [Entity] `codr-user-user-group` • [[repo](https://github.com/CodrJS/codr-user-user-group)] • To be built
 
 **Project Domain**
-- `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built
-- `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)] • To be built
-- `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)] • To be built
-- `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)] • To be built
-- `codr-project-annotation` • [[repo](https://github.com/CodrJS/codr-project-annotation)] • To be built
+- [Service] `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built
+- [Entity] `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)] • To be built
+- [Entity] `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)] • To be built
+- [Entity] `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)] • To be built
+- [Entity] `codr-project-annotation` • [[repo](https://github.com/CodrJS/codr-project-annotation)] • To be built
