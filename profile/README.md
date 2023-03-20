@@ -46,33 +46,33 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 ## Microservices
 
 **Core Domain**
-- [Service] `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
-[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Handles complex logic and forwards CRUD operations to the specified entity.
+- ~[Service] `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
+[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Handles complex logic and forwards CRUD operations to the specified entity.~
 - [Entity] `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)]
 [[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Config entity manager.
 - [Entity] `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
 
 **Notification Domain**
-- [Service] `codr-notification-controller` • [[repo](https://github.com/CodrJS/codr-notification-controller)] • To be built
+- ~[Service] `codr-notification-controller` • [[repo](https://github.com/CodrJS/codr-notification-controller)] • To be built~
 - [Service] `codr-notification-email` • [[repo](https://github.com/CodrJS/codr-notification-email)] • To be built
 - [Service] `codr-notification-sms` • [[repo](https://github.com/CodrJS/codr-notification-sms)] • To be built
 - [Service] `codr-notification-push` • [[repo](https://github.com/CodrJS/codr-notification-push)] • To be built
 - [Entity] `codr-notification-message` • [[repo](https://github.com/CodrJS/codr-notification-message)] • To be built
 - [Entity] `codr-notification-preferences` • [[repo](https://github.com/CodrJS/codr-notification-preferences)] • To be built
-- [Entity] `codr-notification-email-template` • [[repo](https://github.com/CodrJS/codr-notification-email-template)] • To be built
+- [Entity] `codr-notification-emailtemplate` • [[repo](https://github.com/CodrJS/codr-notification-emailtemplate)] • To be built
 
 **User Domain**
-- [Service] `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
+- [Service] `codr-user-auth` • [[repo](https://github.com/CodrJS/codr-user-auth)] • User authentication service. • To be built
 - [Entity] `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)]
 [[docker image](https://github.com/CodrJS/codr-user-user/pkgs/container/codr-user-user)] • User entity manager.
 - [Entity] `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)]
 [[docker image](https://github.com/CodrJS/codr-user-profile/pkgs/container/codr-user-profile)] • Profile entity manager.
 - [Entity] `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)]
 [[docker image](https://github.com/CodrJS/codr-user-session/pkgs/container/codr-user-session)] • Session entity manager.
-- [Entity] `codr-user-user-group` • [[repo](https://github.com/CodrJS/codr-user-user-group)] • To be built
+- [Entity] `codr-user-usergroup` • [[repo](https://github.com/CodrJS/codr-user-usergroup)] • To be built
 
 **Project Domain**
-- [Service] `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built
+- ~[Service] `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built~ • bulk-upload replacement?
 - [Entity] `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)] • To be built
 - [Entity] `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)] • To be built
 - [Entity] `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)] • To be built
