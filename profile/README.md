@@ -45,6 +45,8 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 
 ## Microservices
 
+All microservices are hidden within an internal kubernetes network. In the future, a Nginx server will be deployed on top of these services and expose the endpoints by proxying the routes to the correct location.
+
 **Core Domain**
 - ~[Service] `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
 [[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Handles complex logic and forwards CRUD operations to the specified entity.~
