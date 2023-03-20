@@ -65,8 +65,10 @@ View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
 - [Service] `codr-user-controller` • [[repo](https://github.com/CodrJS/codr-user-controller)] • To be built
 - [Entity] `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)]
 [[docker image](https://github.com/CodrJS/codr-user-user/pkgs/container/codr-user-user)] • User entity manager.
-- [Entity] `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)] • To be built
-- [Entity] `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)] • To be built
+- [Entity] `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)]
+[[docker image](https://github.com/CodrJS/codr-user-profile/pkgs/container/codr-user-profile)] • Profile entity manager.
+- [Entity] `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)]
+[[docker image](https://github.com/CodrJS/codr-user-session/pkgs/container/codr-user-session)] • Session entity manager.
 - [Entity] `codr-user-user-group` • [[repo](https://github.com/CodrJS/codr-user-user-group)] • To be built
 
 **Project Domain**
