@@ -64,14 +64,16 @@ All microservices are hidden within an internal kubernetes network. In the futur
 - [Entity] `codr-notification-emailtemplate` • [[repo](https://github.com/CodrJS/codr-notification-emailtemplate)] • To be built
 
 **User Domain**
-- [Service] `codr-user-auth` • [[repo](https://github.com/CodrJS/codr-user-auth)] • User authentication service. • To be built
+- [Service] `codr-user-auth` • [[repo](https://github.com/CodrJS/codr-user-auth)]
+[[docker image](https://github.com/CodrJS/codr-user-auth/pkgs/container/codr-user-auth)]  • User authentication service.
 - [Entity] `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)]
 [[docker image](https://github.com/CodrJS/codr-user-user/pkgs/container/codr-user-user)] • User entity manager.
 - [Entity] `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)]
 [[docker image](https://github.com/CodrJS/codr-user-profile/pkgs/container/codr-user-profile)] • Profile entity manager.
 - [Entity] `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)]
 [[docker image](https://github.com/CodrJS/codr-user-session/pkgs/container/codr-user-session)] • Session entity manager.
-- [Entity] `codr-user-usergroup` • [[repo](https://github.com/CodrJS/codr-user-usergroup)] • To be built
+- [Entity] `codr-user-usergroup` • [[repo](https://github.com/CodrJS/codr-user-usergroup)]
+[[docker image](https://github.com/CodrJS/codr-user-usergroup/pkgs/container/codr-user-usergroup)]  • UserGroup entity manager.
 
 **Project Domain**
 - ~[Service] `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built~ • bulk-upload replacement?
