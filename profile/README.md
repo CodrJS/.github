@@ -77,7 +77,11 @@ All microservices are hidden within an internal kubernetes network. In the futur
 
 **Project Domain**
 - ~[Service] `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built~ • bulk-upload replacement?
-- [Entity] `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)] • To be built
-- [Entity] `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)] • To be built
-- [Entity] `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)] • To be built
-- [Entity] `codr-project-annotation` • [[repo](https://github.com/CodrJS/codr-project-annotation)] • To be built
+- [Entity] `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)]
+[[docker image](https://github.com/CodrJS/codr-project-project/pkgs/container/codr-project-project)]  • Project entity manager.
+- [Entity] `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)]
+[[docker image](https://github.com/CodrJS/codr-project-dataset/pkgs/container/codr-project-dataset)]  • Dataset entity manager.
+- [Entity] `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)]
+[[docker image](https://github.com/CodrJS/codr-project-sample/pkgs/container/codr-project-sample)]  • Sample entity manager.
+- [Entity] `codr-project-annotation` • [[repo](https://github.com/CodrJS/codr-project-annotation)]
+[[docker image](https://github.com/CodrJS/codr-project-annotation/pkgs/container/codr-project-annotation)]  • Annotation entity manager.
