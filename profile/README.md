@@ -6,6 +6,82 @@ This is the start to a improved version of Codr which can be found on [Github](h
 
 ## Repositories
 
-- **@CodrJS/Core** -- _This respository provides the foundational functionality built as an NPM module for other repositories and future projects_
-- **CodrJS/API** -- _This contains the code for our RESTful API built on the @CodrJS/Core module_
-- **CodrJS/WebUI** -- _This is the fround-end web client that interacts with the RESTful API_
+- **CodrJS/API** • [[repo](https://github.com/CodrJS/API)] • _This contains the code for our RESTful API built on the @CodrJS/Core module_
+- **CodrJS/setup** • [[repo](https://github.com/CodrJS/setup)] • k8s and service configuration documentation
+- **CodrJS/docs** • [[repo](https://github.com/CodrJS/docs)] (**private repo**) • _End user documentation for Codr_
+- **CodrJS/WebUI** • [[repo](https://github.com/CodrJS/WebUI)] • _This is the fround-end web client that interacts with the RESTful API_
+
+## NPM modules
+View all packages on [npmjs.org](https://www.npmjs.com/org/codrjs)!
+
+- ![npm version](https://img.shields.io/npm/v/@codrjs/config) `@codrjs/config` • 
+[[repo](https://github.com/CodrJS/config)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/config)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/core) `@codrjs/core` • 
+[[repo](https://github.com/CodrJS/core)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/core)] -- *being deprecated*
+- ![npm version](https://img.shields.io/npm/v/@codrjs/design-library) `@codrjs/design-library` • 
+[[repo](https://github.com/CodrJS/design-library)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/design-library)]
+[[docker image](https://github.com/CodrJS/design-library/pkgs/container/design-library)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/health) `@codrjs/health` • 
+[[repo](https://github.com/CodrJS/health)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/health)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/kafka) `@codrjs/kafka` • 
+[[repo](https://github.com/CodrJS/kafka)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/kafka)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/logger) `@codrjs/logger` • 
+[[repo](https://github.com/CodrJS/logger)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/logger)]
+- ![npm version](https://img.shields.io/npm/v/@codrjs/models) `@codrjs/models` • 
+[[repo](https://github.com/CodrJS/models)] 
+[[npmjs.org](https://www.npmjs.com/package/@codrjs/models)]
+
+## Templates
+
+- `ts-npm-template` • [[repo](https://github.com/CodrJS/ts-npm-template)]
+- `ts-microservice-template` • [[repo](https://github.com/CodrJS/ts-microservice-template)]
+[[docker image](https://github.com/CodrJS/ts-microservice-template/pkgs/container/ts-microservice-template)]
+
+## Microservices
+
+All microservices are hidden within an internal kubernetes network. In the future, a Nginx server will be deployed on top of these services and expose the endpoints by proxying the routes to the correct location.
+
+**Core Domain**
+- ~[Service] `codr-core-controller` • [[repo](https://github.com/CodrJS/codr-core-controller)]
+[[docker image](https://github.com/CodrJS/codr-core-controller/pkgs/container/codr-core-controller)] • Handles complex logic and forwards CRUD operations to the specified entity.~
+- [Entity] `codr-core-config` • [[repo](https://github.com/CodrJS/codr-core-config)]
+[[docker image](https://github.com/CodrJS/codr-core-config/pkgs/container/codr-core-config)] • Config entity manager.
+- [Entity] `codr-core-audit` • [[repo](https://github.com/CodrJS/codr-core-audit)] • To be built
+
+**Notification Domain**
+- ~[Service] `codr-notification-controller` • [[repo](https://github.com/CodrJS/codr-notification-controller)] • To be built~
+- [Service] `codr-notification-email` • [[repo](https://github.com/CodrJS/codr-notification-email)] • To be built
+- [Service] `codr-notification-sms` • [[repo](https://github.com/CodrJS/codr-notification-sms)] • To be built
+- [Service] `codr-notification-push` • [[repo](https://github.com/CodrJS/codr-notification-push)] • To be built
+- [Entity] `codr-notification-message` • [[repo](https://github.com/CodrJS/codr-notification-message)] • To be built
+- [Entity] `codr-notification-preferences` • [[repo](https://github.com/CodrJS/codr-notification-preferences)] • To be built
+- [Entity] `codr-notification-emailtemplate` • [[repo](https://github.com/CodrJS/codr-notification-emailtemplate)] • To be built
+
+**User Domain**
+- [Service] `codr-user-auth` • [[repo](https://github.com/CodrJS/codr-user-auth)]
+[[docker image](https://github.com/CodrJS/codr-user-auth/pkgs/container/codr-user-auth)]  • User authentication service.
+- [Entity] `codr-user-user` • [[repo](https://github.com/CodrJS/codr-user-user)]
+[[docker image](https://github.com/CodrJS/codr-user-user/pkgs/container/codr-user-user)] • User entity manager.
+- [Entity] `codr-user-profile` • [[repo](https://github.com/CodrJS/codr-user-profile)]
+[[docker image](https://github.com/CodrJS/codr-user-profile/pkgs/container/codr-user-profile)] • Profile entity manager.
+- [Entity] `codr-user-session` • [[repo](https://github.com/CodrJS/codr-user-session)]
+[[docker image](https://github.com/CodrJS/codr-user-session/pkgs/container/codr-user-session)] • Session entity manager.
+- [Entity] `codr-user-usergroup` • [[repo](https://github.com/CodrJS/codr-user-usergroup)]
+[[docker image](https://github.com/CodrJS/codr-user-usergroup/pkgs/container/codr-user-usergroup)]  • UserGroup entity manager.
+
+**Project Domain**
+- ~[Service] `codr-project-controller` • [[repo](https://github.com/CodrJS/codr-project-controller)] • To be built~ • bulk-upload replacement?
+- [Entity] `codr-project-project` • [[repo](https://github.com/CodrJS/codr-project-project)]
+[[docker image](https://github.com/CodrJS/codr-project-project/pkgs/container/codr-project-project)]  • Project entity manager.
+- [Entity] `codr-project-dataset` • [[repo](https://github.com/CodrJS/codr-project-dataset)]
+[[docker image](https://github.com/CodrJS/codr-project-dataset/pkgs/container/codr-project-dataset)]  • Dataset entity manager.
+- [Entity] `codr-project-sample` • [[repo](https://github.com/CodrJS/codr-project-sample)]
+[[docker image](https://github.com/CodrJS/codr-project-sample/pkgs/container/codr-project-sample)]  • Sample entity manager.
+- [Entity] `codr-project-annotation` • [[repo](https://github.com/CodrJS/codr-project-annotation)]
+[[docker image](https://github.com/CodrJS/codr-project-annotation/pkgs/container/codr-project-annotation)]  • Annotation entity manager.
