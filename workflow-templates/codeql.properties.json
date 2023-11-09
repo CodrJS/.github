@@ -1,0 +1,6 @@
+{
+  "name": "Codr's CodeQL Workflow",
+  "description": "Analyze all javascript code for Codr.",
+  "categories": ["node", "code-quality"],
+  "filePatterns": ["package.json$"]
+}

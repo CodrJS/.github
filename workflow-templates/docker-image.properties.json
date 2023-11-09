@@ -1,0 +1,6 @@
+{
+  "name": "Build and Publish Docker Image Workflow",
+  "description": "Build and publish Docker images to the Codr ghcr.io registry.",
+  "categories": ["node", "Dockerfile", "continuous-integration"],
+  "filePatterns": ["package.json$", "^Dockerfile", ".*\\.md$"]
+}
