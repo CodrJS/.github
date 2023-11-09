@@ -1,0 +1,24 @@
+name: Build and Publish NPM Module
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - $default-branch
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    uses: CodrJS/cicd/.github/workflows/node-build-artifact.yml@main
+  test:
+    uses: CodrJS/cicd/.github/workflows/node-test-artifact.yml@main
+    needs: build
+  publish:
+    uses: CodrJS/cicd/.github/workflows/node-publish-npm.yml@main
+    needs: test
+    secrets: inherit
