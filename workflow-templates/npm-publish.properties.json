@@ -2,5 +2,5 @@
   "name": "Codr's NPM Workflow",
   "description": "Build and publish NPM modules to the Codr npm registry.",
   "categories": ["node", "continuous-integration"],
-  "filePatterns": ["package.json$", ".*\\.md$"]
+  "filePatterns": ["package.json$", ".*\\.md$", "\\.npmignore$"]
 }
