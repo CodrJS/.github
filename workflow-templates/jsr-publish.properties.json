@@ -1,0 +1,6 @@
+{
+  "name": "Codr's JSR Workflow",
+  "description": "Build and publish Deno modules to the Codr JSR registry.",
+  "categories": ["deno", "continuous-integration"],
+  "filePatterns": ["deno.json$", ".*\\.md$"]
+}

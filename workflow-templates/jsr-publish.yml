@@ -1,0 +1,22 @@
+name: Build and Publish JSR Module
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - $default-branch
+  release:
+    types:
+      - created
+
+jobs:
+  test:
+    uses: CodrJS/cicd/.github/workflows/deno-test.yml@main
+    needs: build
+  publish:
+    uses: CodrJS/cicd/.github/workflows/deno-publish-jsr.yml@main
+    needs: test
+    secrets: inherit
