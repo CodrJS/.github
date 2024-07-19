@@ -1,4 +1,4 @@
-name: Build and Publish JSR Module
+name: Test and Publish JSR Module
 
 on:
   workflow_dispatch:
