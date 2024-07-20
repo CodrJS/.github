@@ -1,6 +1,6 @@
 # CodrJS
 
-Codr is an open-sourced customizable annotation tool for researchers and industry being developed by the [PERC_Lab](https://github.com/PERC-Lab).
+Codr is an open-sourced customizable annotation tool for researchers and industry being developed by [@DylanBulmer](https://github.com/DylanBulmer) with help from the [PERC_Lab](https://github.com/PERC-Lab).
 
 This is the start to a improved version of Codr which can be found on [Github](https://github.com/PERC-Lab/Codr) and hosted at https://codr.dylanbulmer.com.
 
